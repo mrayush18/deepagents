@@ -2,6 +2,21 @@
 
 Running record of work sessions, decisions and next steps. Newest first.
 
+## 2026-10-18 (sourcing research)
+
+**Done**
+- Researched lingerie suppliers for a new private-label brand sold in India:
+  Delhi directory leads (Tradeindia, ExportersIndia, IndiaMART, Justdial),
+  Tiruppur and Kolkata (Lux Industries says it does private label), and
+  Shantou, China (Yipinzun lists custom MOQ 100 pcs per style per color).
+- Import notes: bras are HSN 6212 with 18% IGST; basic customs duty figures
+  conflict between sources and must be confirmed with CBIC or a customs broker.
+
+**Next steps**
+- [ ] Contact 3-5 suppliers for private-label terms, MOQ, samples and prices.
+- [ ] Order samples and compare fit and quality.
+- [ ] Register GST, file a trademark for the brand name, and get an IEC if importing.
+
 ## 2026-10-18 (later)
 
 **Done**
