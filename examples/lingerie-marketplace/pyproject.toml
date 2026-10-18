@@ -1,0 +1,20 @@
+[project]
+name = "lingerie-marketplace-agents"
+version = "0.1.0"
+description = "Buyer and seller Deep Agents for a lingerie shop, with human approval for orders and price changes"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "deepagents>=0.6.12",
+    "langchain-anthropic>=1.5.4,<2.0.0",
+    "langgraph>=1.2.6",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+]
+
+[tool.setuptools]
+py-modules = ["agent", "store", "sizing", "tools"]
+
+[build-system]
+requires = ["setuptools>=83.0.0"]
+build-backend = "setuptools.build_meta"

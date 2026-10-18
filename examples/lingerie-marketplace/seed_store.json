@@ -1,0 +1,668 @@
+{
+  "products": [
+    {
+      "id": "p-bra01",
+      "name": "Everyday T-Shirt Bra",
+      "category": "bra",
+      "price": 42.0,
+      "description": "Lightly lined molded cups with a smooth finish under fitted tops. Adjustable straps and a three-hook back.",
+      "tags": [
+        "everyday",
+        "t-shirt",
+        "lined",
+        "underwire",
+        "smooth"
+      ],
+      "variants": [
+        {
+          "size": "32B",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "32B",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "32C",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "32C",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "34B",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "34B",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "34C",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "34C",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "34D",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "34D",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "36C",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "36C",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "36D",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "36D",
+          "color": "black",
+          "stock": 6
+        },
+        {
+          "size": "38D",
+          "color": "nude",
+          "stock": 6
+        },
+        {
+          "size": "38D",
+          "color": "black",
+          "stock": 6
+        }
+      ]
+    },
+    {
+      "id": "p-bra02",
+      "name": "Wireless Comfort Bralette",
+      "category": "bra",
+      "price": 34.0,
+      "description": "Soft stretch modal with a wide underband and no wire, for lounging or light support.",
+      "tags": [
+        "wireless",
+        "comfort",
+        "bralette",
+        "modal",
+        "lounge"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "heather grey",
+          "stock": 8
+        },
+        {
+          "size": "XS",
+          "color": "rose",
+          "stock": 8
+        },
+        {
+          "size": "S",
+          "color": "heather grey",
+          "stock": 8
+        },
+        {
+          "size": "S",
+          "color": "rose",
+          "stock": 8
+        },
+        {
+          "size": "M",
+          "color": "heather grey",
+          "stock": 8
+        },
+        {
+          "size": "M",
+          "color": "rose",
+          "stock": 8
+        },
+        {
+          "size": "L",
+          "color": "heather grey",
+          "stock": 8
+        },
+        {
+          "size": "L",
+          "color": "rose",
+          "stock": 8
+        },
+        {
+          "size": "XL",
+          "color": "heather grey",
+          "stock": 8
+        },
+        {
+          "size": "XL",
+          "color": "rose",
+          "stock": 8
+        },
+        {
+          "size": "2XL",
+          "color": "heather grey",
+          "stock": 8
+        },
+        {
+          "size": "2XL",
+          "color": "rose",
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "id": "p-bra03",
+      "name": "Lace Plunge Bra",
+      "category": "bra",
+      "price": 58.0,
+      "description": "Floral stretch lace with a deep plunge neckline for low-cut tops. Underwire with light padding.",
+      "tags": [
+        "lace",
+        "plunge",
+        "underwire",
+        "special occasion"
+      ],
+      "variants": [
+        {
+          "size": "32B",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "32B",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "32C",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "32C",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "34B",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "34B",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "34C",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "34C",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "34D",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "34D",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "36C",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "36C",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "36D",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "36D",
+          "color": "ivory",
+          "stock": 3
+        },
+        {
+          "size": "38D",
+          "color": "black",
+          "stock": 3
+        },
+        {
+          "size": "38D",
+          "color": "ivory",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "p-bri01",
+      "name": "Seamless Hipster Brief",
+      "category": "brief",
+      "price": 16.0,
+      "description": "Laser-cut edges that stay invisible under clothing, in breathable microfiber.",
+      "tags": [
+        "seamless",
+        "hipster",
+        "everyday",
+        "no-show"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "nude",
+          "stock": 12
+        },
+        {
+          "size": "XS",
+          "color": "black",
+          "stock": 12
+        },
+        {
+          "size": "XS",
+          "color": "navy",
+          "stock": 12
+        },
+        {
+          "size": "S",
+          "color": "nude",
+          "stock": 12
+        },
+        {
+          "size": "S",
+          "color": "black",
+          "stock": 12
+        },
+        {
+          "size": "S",
+          "color": "navy",
+          "stock": 12
+        },
+        {
+          "size": "M",
+          "color": "nude",
+          "stock": 12
+        },
+        {
+          "size": "M",
+          "color": "black",
+          "stock": 12
+        },
+        {
+          "size": "M",
+          "color": "navy",
+          "stock": 12
+        },
+        {
+          "size": "L",
+          "color": "nude",
+          "stock": 12
+        },
+        {
+          "size": "L",
+          "color": "black",
+          "stock": 12
+        },
+        {
+          "size": "L",
+          "color": "navy",
+          "stock": 12
+        },
+        {
+          "size": "XL",
+          "color": "nude",
+          "stock": 12
+        },
+        {
+          "size": "XL",
+          "color": "black",
+          "stock": 12
+        },
+        {
+          "size": "XL",
+          "color": "navy",
+          "stock": 12
+        },
+        {
+          "size": "2XL",
+          "color": "nude",
+          "stock": 12
+        },
+        {
+          "size": "2XL",
+          "color": "black",
+          "stock": 12
+        },
+        {
+          "size": "2XL",
+          "color": "navy",
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "p-bri02",
+      "name": "Cotton High-Waist Brief",
+      "category": "brief",
+      "price": 14.0,
+      "description": "Full-coverage organic cotton with a soft wide waistband.",
+      "tags": [
+        "cotton",
+        "high-waist",
+        "full coverage",
+        "organic"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "white",
+          "stock": 10
+        },
+        {
+          "size": "XS",
+          "color": "black",
+          "stock": 10
+        },
+        {
+          "size": "S",
+          "color": "white",
+          "stock": 10
+        },
+        {
+          "size": "S",
+          "color": "black",
+          "stock": 10
+        },
+        {
+          "size": "M",
+          "color": "white",
+          "stock": 10
+        },
+        {
+          "size": "M",
+          "color": "black",
+          "stock": 10
+        },
+        {
+          "size": "L",
+          "color": "white",
+          "stock": 10
+        },
+        {
+          "size": "L",
+          "color": "black",
+          "stock": 10
+        },
+        {
+          "size": "XL",
+          "color": "white",
+          "stock": 10
+        },
+        {
+          "size": "XL",
+          "color": "black",
+          "stock": 10
+        },
+        {
+          "size": "2XL",
+          "color": "white",
+          "stock": 10
+        },
+        {
+          "size": "2XL",
+          "color": "black",
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": "p-set01",
+      "name": "Lace Bralette and Brief Set",
+      "category": "set",
+      "price": 64.0,
+      "description": "Matching scalloped-lace bralette and brief, unlined for a light, natural feel.",
+      "tags": [
+        "lace",
+        "set",
+        "matching",
+        "gift",
+        "bridal"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "ivory",
+          "stock": 4
+        },
+        {
+          "size": "XS",
+          "color": "burgundy",
+          "stock": 4
+        },
+        {
+          "size": "S",
+          "color": "ivory",
+          "stock": 4
+        },
+        {
+          "size": "S",
+          "color": "burgundy",
+          "stock": 4
+        },
+        {
+          "size": "M",
+          "color": "ivory",
+          "stock": 4
+        },
+        {
+          "size": "M",
+          "color": "burgundy",
+          "stock": 4
+        },
+        {
+          "size": "L",
+          "color": "ivory",
+          "stock": 4
+        },
+        {
+          "size": "L",
+          "color": "burgundy",
+          "stock": 4
+        },
+        {
+          "size": "XL",
+          "color": "ivory",
+          "stock": 4
+        },
+        {
+          "size": "XL",
+          "color": "burgundy",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "p-slp01",
+      "name": "Satin Pajama Set",
+      "category": "sleepwear",
+      "price": 78.0,
+      "description": "Button-front satin top with relaxed pants and a covered elastic waist.",
+      "tags": [
+        "satin",
+        "pajamas",
+        "sleepwear",
+        "gift"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "champagne",
+          "stock": 5
+        },
+        {
+          "size": "XS",
+          "color": "navy",
+          "stock": 5
+        },
+        {
+          "size": "S",
+          "color": "champagne",
+          "stock": 5
+        },
+        {
+          "size": "S",
+          "color": "navy",
+          "stock": 5
+        },
+        {
+          "size": "M",
+          "color": "champagne",
+          "stock": 5
+        },
+        {
+          "size": "M",
+          "color": "navy",
+          "stock": 5
+        },
+        {
+          "size": "L",
+          "color": "champagne",
+          "stock": 5
+        },
+        {
+          "size": "L",
+          "color": "navy",
+          "stock": 5
+        },
+        {
+          "size": "XL",
+          "color": "champagne",
+          "stock": 5
+        },
+        {
+          "size": "XL",
+          "color": "navy",
+          "stock": 5
+        },
+        {
+          "size": "2XL",
+          "color": "champagne",
+          "stock": 5
+        },
+        {
+          "size": "2XL",
+          "color": "navy",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": "p-shp01",
+      "name": "Smoothing Bodysuit",
+      "category": "shapewear",
+      "price": 68.0,
+      "description": "Medium-control bodysuit that smooths the midsection, with a snap gusset and adjustable straps.",
+      "tags": [
+        "shapewear",
+        "bodysuit",
+        "smoothing",
+        "medium control"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "nude",
+          "stock": 2
+        },
+        {
+          "size": "XS",
+          "color": "black",
+          "stock": 2
+        },
+        {
+          "size": "S",
+          "color": "nude",
+          "stock": 2
+        },
+        {
+          "size": "S",
+          "color": "black",
+          "stock": 2
+        },
+        {
+          "size": "M",
+          "color": "nude",
+          "stock": 2
+        },
+        {
+          "size": "M",
+          "color": "black",
+          "stock": 2
+        },
+        {
+          "size": "L",
+          "color": "nude",
+          "stock": 2
+        },
+        {
+          "size": "L",
+          "color": "black",
+          "stock": 2
+        },
+        {
+          "size": "XL",
+          "color": "nude",
+          "stock": 2
+        },
+        {
+          "size": "XL",
+          "color": "black",
+          "stock": 2
+        },
+        {
+          "size": "2XL",
+          "color": "nude",
+          "stock": 2
+        },
+        {
+          "size": "2XL",
+          "color": "black",
+          "stock": 2
+        }
+      ]
+    }
+  ],
+  "orders": []
+}

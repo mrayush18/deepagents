@@ -2,6 +2,21 @@
 
 Running record of work sessions, decisions and next steps. Newest first.
 
+## 2026-10-18 (later)
+
+**Done**
+- Reviewed upstream `langchain-ai/deepagents` (now 0.7.x): `create_deep_agent`
+  takes `tools`, `system_prompt`, `interrupt_on`, `checkpointer` and more.
+- Added `examples/lingerie-marketplace/`: a buyer agent (sizing help,
+  recommendations, ordering) and a seller agent (inventory, catalog, pricing,
+  shipping, sales report) sharing one JSON store. Placing orders, changing
+  prices and cancelling orders need human approval. Seven offline tests pass.
+
+**Next steps**
+- [ ] Run both agents with a real API key and tune the prompts.
+- [ ] Mark orders paid from the Stripe storefront webhook.
+- [ ] Replace the sample catalog with real products.
+
 ## 2026-10-18
 
 **Goal:** start earning from deep-agent services, with payments through Stripe.
