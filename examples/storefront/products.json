@@ -1,0 +1,16 @@
+[
+  {
+    "id": "agent-setup",
+    "name": "Custom research agent setup",
+    "description": "A deepagents research agent configured for your topic, delivered as a ready-to-run repo.",
+    "price_cents": 4900,
+    "currency": "usd"
+  },
+  {
+    "id": "research-report",
+    "name": "Research report",
+    "description": "A sourced research report on one question, produced with a deep agent and reviewed by a human.",
+    "price_cents": 2500,
+    "currency": "usd"
+  }
+]
