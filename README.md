@@ -68,6 +68,9 @@ result = agent.invoke({"messages": [{"role": "user", "content": "what is langgra
 
 See [examples/research/research_agent.py](examples/research/research_agent.py) for a more complex example.
 
+See [examples/phone/phone_deep_agent.py](examples/phone/phone_deep_agent.py) for a deep agent that uses a real
+phone, Android (adb) or iPhone (WebDriverAgent), through a Claude computer-use sub-agent.
+
 The agent created with `create_deep_agent` is just a LangGraph graph - so you can interact with it (streaming, human-in-the-loop, memory, studio)
 in the same way you would any LangGraph agent.
 

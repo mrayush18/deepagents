@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "phone": "./phone_deep_agent.py:agent"
+  },
+  "env": ".env"
+}
