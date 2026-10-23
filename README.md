@@ -70,6 +70,8 @@ See [examples/research/research_agent.py](examples/research/research_agent.py) f
 
 See [examples/phone/phone_deep_agent.py](examples/phone/phone_deep_agent.py) for a deep agent that uses a real
 phone, Android (adb) or iPhone (WebDriverAgent), through a Claude computer-use sub-agent.
+The same phone also works straight from Claude Code: `examples/phone/phone_mcp.py` is an MCP server
+(registered in `.mcp.json`) and `.claude/skills/phone-use/SKILL.md` is the skill that drives it.
 
 The agent created with `create_deep_agent` is just a LangGraph graph - so you can interact with it (streaming, human-in-the-loop, memory, studio)
 in the same way you would any LangGraph agent.

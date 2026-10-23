@@ -18,6 +18,7 @@ import json
 import os
 import shlex
 import subprocess
+import sys
 import time
 import urllib.request
 
@@ -202,7 +203,10 @@ class Android(Device):
     MODIFIERS = {"ctrl": 113, "shift": 59, "alt": 57}
 
     def adb(self, *args, binary=False):
-        r = subprocess.run(["adb", *args], capture_output=True, timeout=60)
+        try:
+            r = subprocess.run(["adb", *args], capture_output=True, timeout=60)
+        except FileNotFoundError:
+            raise RuntimeError("adb not found: install Android platform-tools, or set PHONE_PLATFORM=ios") from None
         if r.returncode:
             raise RuntimeError(r.stderr.decode(errors="replace").strip() or f"adb {args[0]} failed")
         return r.stdout if binary else r.stdout.decode(errors="replace")
@@ -344,7 +348,9 @@ def run_calls(device: Device, blocks: list) -> list[dict]:
             except Exception as e:  # report failures back to the model
                 r.update(content=f"{type(e).__name__}: {e}", is_error=True)
                 failed = True
-        print(f"[phone] {b.name} {b.input} -> {'image' if isinstance(r['content'], list) else r['content']}")
+        # stderr: stdout may be an MCP stdio channel (phone_mcp.py)
+        print(f"[phone] {b.name} {b.input} -> {'image' if isinstance(r['content'], list) else r['content']}",
+              file=sys.stderr)
         results.append(r)
     return results
 

@@ -2,3 +2,4 @@ deepagents
 langgraph-cli[inmem]
 anthropic>=1.15
 pillow
+mcp

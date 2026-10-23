@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "phone": {
+      "command": "python",
+      "args": ["examples/phone/phone_mcp.py"],
+      "env": {
+        "PHONE_PLATFORM": "${PHONE_PLATFORM:-android}",
+        "WDA_URL": "${WDA_URL:-http://127.0.0.1:8100}",
+        "PHONE_READ_ONLY": "${PHONE_READ_ONLY:-0}"
+      }
+    }
+  }
+}
